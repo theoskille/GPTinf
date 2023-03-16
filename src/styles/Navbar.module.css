@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+    margin-right: 42px;
+  }
+  
+  .navbarlist {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbaritem {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 24px;
+    text-decoration: none;
+  }
+  
+  

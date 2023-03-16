@@ -1,0 +1,49 @@
+/* styles for the container that holds all the features */
+.featurescontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* horizontally center the features */
+    align-items: center; /* vertically center the features */
+    margin-top: 50px; /* add some space at the top */
+  }
+  
+  /* styles for each individual feature */
+  .feature {
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* styles for the feature image */
+  .featureimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* styles for the feature name */
+  .featureh2 {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* styles for the feature description */
+  .featurep {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .h3 {
+  font-family: 'Roboto', sans-serif;
+  margin: 24px;
+  font-size: 42px;
+}
