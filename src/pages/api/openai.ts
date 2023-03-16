@@ -33,6 +33,6 @@ export default async function handler(
     res.status(200).json({ completion });
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'Failed to fetch completion.' });
+    res.status(500).json({ completion: '' });
   }
 }
