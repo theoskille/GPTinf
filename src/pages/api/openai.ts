@@ -4,8 +4,6 @@ import { Configuration, OpenAIApi } from 'openai';
 type Data = {
   completion: string;
 };
-console.log("hello");
-console.log(process.env.OPENAI_API_KEY);
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
@@ -17,9 +15,7 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   try {
-    console.log(process.env.OPENAI_API_KEY);
     const { inputValue } = req.body;
-    //console.log(inputValue);
     const response = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: "rewrite the text below:\n"+`${inputValue}`,
@@ -29,7 +25,6 @@ export default async function handler(
         frequency_penalty: 1.44,
         presence_penalty: 1.28
     });
-    //console.log(response.data.choices[0])
     const completion = response.data.choices?.[0]?.text || '';
 
     res.status(200).json({ completion });
