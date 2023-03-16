@@ -1,4 +1,4 @@
-import styles from '../styles/Features.module.css';
+import styles from '../styles/features.module.css';
 import Image from 'next/image';
 const features = [
   {
