@@ -22,6 +22,7 @@
   resize: vertical;
 }
 
+
 .input::placeholder {
   font-size: 14px;
   color: gray;
@@ -178,5 +179,19 @@
   }
   100% {
     transform: translateY(10px);
+  }
+}
+
+@media (max-width: 768px) { /* adjust as needed */
+  .input {
+    height: 300px;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .output {
+    height: 300px;
+    width: 90%;
+    font-size: 16px;
   }
 }
