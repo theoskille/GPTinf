@@ -4,6 +4,10 @@ import styles from '../styles/faq.module.css';
 const Faq = () => {
     const faqs = [
       {
+        question: 'Why are only parts of my text being generated',
+        answer: 'GPTinf is still in beta so there is a limit of 300 tokens per request. This will be changed as we get more users'
+      },
+      {
         question: 'What methods are used?',
         answer: `GPTinf uses a combination of prompt engineering and gpt davinci's fine tuning features to produce human-like text`
       },
