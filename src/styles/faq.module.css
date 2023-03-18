@@ -20,3 +20,11 @@
     font-family: 'Roboto', sans-serif;
     width: 600px;
   }
+
+  @media (max-width: 768px) { /* adjust as needed */
+    .p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        width: 90%;
+    }
+}

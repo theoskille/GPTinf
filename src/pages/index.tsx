@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Features from '../components/Features';
+import UploadPdf from '../components/UploadPdf';
 import { BeatLoader } from 'react-spinners';
 import { useState } from 'react';
 import styles from '../styles/Home.module.css';
@@ -47,6 +48,7 @@ const Home = () => {
         </div>
         <p className={styles.p}>AI for everyone</p>
       </header>
+
       
 
       <h1 className={styles.h4}>Try GPTinf</h1>

@@ -18,6 +18,8 @@
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
     "openai": "^3.2.1",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.4.120",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-spinners": "^0.13.8",

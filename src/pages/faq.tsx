@@ -13,7 +13,7 @@ const Faq = () => {
       },
       {
         question: 'Does it always work?',
-        answer: 'GPTinf has a very high success rate. However, like with any AI model, errors are inevitable. Thats why we recomend that you double check before using any of the content that is generated.'
+        answer: 'GPTinf has a very high success rate. However, like with any AI model, errors are inevitable. Thats why we recommend that you double check before using any of the content that is generated.'
       },
       {
         question: 'When will I be able to upload files?',
