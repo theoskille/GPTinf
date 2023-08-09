@@ -52,6 +52,7 @@ const Home = () => {
       
 
       <h1 className={styles.h4}>Try GPTinf</h1>
+      <h1 className={styles.h4}>Attention!!! GPTinf is under construction and will be temporarily unavailable. Expect to have the site back up within a week or so. I will be adding new features so if anyone has any request feel free to reach out to me at theo.skille@gmail.com</h1>
       <div className={styles.arrow}/>
       <form className={styles.form} onSubmit={handleSubmit}>
         <textarea className={styles.input} placeholder="Type in the text that you would like rewritten (Max: 300 characters)" value={inputValue} onChange={handleInputChange} />
